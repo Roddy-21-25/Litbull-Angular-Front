@@ -1,0 +1,22 @@
+.footer-bg {
+  background: rgb(62, 49, 44);
+}
+
+.color-white {
+  color: white;
+  text-decoration: none;
+}
+
+.text-reset {
+  color: white;
+}
+
+.fw-bold {
+  color: white;
+}
+
+.footer-img{
+    width: auto;
+    height: 250px;
+    margin-top: 30px;
+}

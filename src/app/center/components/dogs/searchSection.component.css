@@ -1,0 +1,65 @@
+.bg-search{
+    background-image: url("/assets/Search/bg/ai-generated-labrador-retriever-dog-picture.jpg"); /* Reemplaza 'tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.title-result{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(62, 49, 44);
+    font-weight: 800;
+}
+
+.box-search-section{
+    background-color: white;
+    border-radius: 24px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box-accordion{
+    border: 3px solid rgb(62, 49, 44);
+    border-radius: 24px;
+    padding: 10px;
+}
+
+.search-input{
+    transition: all 0.3s ease;
+}
+
+.search-input:hover{
+    border-color: rgb(62, 49, 44);
+}
+
+.Branch-img{
+    width: auto;
+    height: 40px;
+    margin: 20px;
+}
+
+.box-branch{
+  background: rgb(62, 49, 44);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Media query para pantallas de tabletas */
+@media (max-width: 768px) {
+    .Branch-img{
+      width: auto;
+      height: 30px;
+    }
+  }
+  
+  /* Media query para pantallas de móvil */
+  @media (max-width: 576px) {
+    .Branch-img{
+      width: auto;
+      height: 20px;
+    }
+  }
+
